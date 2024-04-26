@@ -1,0 +1,153 @@
+*********************************************************************************************************
+---Question 1 : Determine the number of packets in each pcap file and the total number in all the pcap files---
+*********************************************************************************************************
+File 'file1.pcap' has 43 packets.
+File 'file2.pcap' has 1944 packets.
+File 'file3.pcap' has 141 packets.
+Total packets in overall pcap files: 2128
+
+
+*********************************************************************************************************
+---Question 2: Distinct Source IP Addresses and Number of Packets (Descending Order):---
+*********************************************************************************************************
+Source IP Address: 192.168.1.121, Number Of Packets: 1137
+Source IP Address: 188.225.38.247, Number Of Packets: 343
+Source IP Address: 192.168.1.1, Number Of Packets: 217
+Source IP Address: 194.87.110.230, Number Of Packets: 90
+Source IP Address: 172.16.11.12, Number Of Packets: 70
+Source IP Address: 217.20.116.142, Number Of Packets: 50
+Source IP Address: 204.79.197.200, Number Of Packets: 35
+Source IP Address: 216.34.181.45, Number Of Packets: 33
+Source IP Address: 72.21.81.200, Number Of Packets: 26
+Source IP Address: 172.217.0.238, Number Of Packets: 24
+Source IP Address: 145.254.160.237, Number Of Packets: 20
+Source IP Address: 96.17.211.172, Number Of Packets: 19
+Source IP Address: 65.208.228.223, Number Of Packets: 18
+Source IP Address: 172.16.11.1, Number Of Packets: 14
+Source IP Address: 172.217.0.227, Number Of Packets: 11
+Source IP Address: 168.143.243.230, Number Of Packets: 5
+Source IP Address: 216.239.59.99, Number Of Packets: 4
+Source IP Address: 74.125.19.17, Number Of Packets: 4
+Source IP Address: 193.124.93.220, Number Of Packets: 3
+Source IP Address: 192.168.1.254, Number Of Packets: 3
+Source IP Address: 145.253.2.203, Number Of Packets: 1
+Source IP Address: 225.19.172.16, Number Of Packets: 1
+
+*********************************************************************************************************
+      ---Question 3: Distinct Destination TCP Ports and Number of Packets (Descending Order):---
+*********************************************************************************************************
+Destination Port: 80, Packets: 276
+Destination Port: 49163, Packets: 266
+Destination Port: 443, Packets: 206
+Destination Port: 49160, Packets: 74
+Destination Port: 64581, Packets: 33
+Destination Port: 49171, Packets: 25
+Destination Port: 3372, Packets: 18
+Destination Port: 49170, Packets: 14
+Destination Port: 49169, Packets: 12
+Destination Port: 49189, Packets: 11
+Destination Port: 49165, Packets: 9
+Destination Port: 49168, Packets: 9
+Destination Port: 49172, Packets: 9
+Destination Port: 49175, Packets: 9
+Destination Port: 49177, Packets: 9
+Destination Port: 49182, Packets: 9
+Destination Port: 49183, Packets: 9
+Destination Port: 49190, Packets: 9
+Destination Port: 49193, Packets: 9
+Destination Port: 49197, Packets: 9
+Destination Port: 49200, Packets: 9
+Destination Port: 64584, Packets: 6
+Destination Port: 49162, Packets: 5
+Destination Port: 49167, Packets: 5
+Destination Port: 49166, Packets: 5
+Destination Port: 49176, Packets: 5
+Destination Port: 49178, Packets: 5
+Destination Port: 49184, Packets: 5
+Destination Port: 49185, Packets: 5
+Destination Port: 49192, Packets: 5
+Destination Port: 49191, Packets: 5
+Destination Port: 49198, Packets: 5
+Destination Port: 49199, Packets: 5
+Destination Port: 64583, Packets: 5
+Destination Port: 3371, Packets: 4
+Destination Port: 64565, Packets: 4
+Destination Port: 64582, Packets: 4
+Destination Port: 64585, Packets: 4
+Destination Port: 49159, Packets: 3
+Destination Port: 49161, Packets: 3
+Destination Port: 49164, Packets: 2
+Destination Port: 49173, Packets: 2
+Destination Port: 49174, Packets: 2
+Destination Port: 49179, Packets: 2
+Destination Port: 49180, Packets: 2
+Destination Port: 49181, Packets: 2
+Destination Port: 49186, Packets: 2
+Destination Port: 49187, Packets: 2
+Destination Port: 49188, Packets: 2
+Destination Port: 49194, Packets: 2
+Destination Port: 49195, Packets: 2
+Destination Port: 49196, Packets: 1
+Destination Port: 49201, Packets: 1
+Destination Port: 49202, Packets: 1
+
+*********************************************************************************************************
+    ---Question4: Distinct Source IP and Destination TCP Port Pairs and Their Occurrences (Descending Order):
+*********************************************************************************************************
+Source IP: 188.225.38.247, Destination TCP Port: 49163, Total number Of Packets: 266
+Source IP: 192.168.1.121, Destination TCP Port: 80, Total number Of Packets: 212
+Source IP: 192.168.1.121, Destination TCP Port: 443, Total number Of Packets: 201
+Source IP: 188.225.38.247, Destination TCP Port: 49160, Total number Of Packets: 74
+Source IP: 172.16.11.12, Destination TCP Port: 80, Total number Of Packets: 45
+Source IP: 216.34.181.45, Destination TCP Port: 64581, Total number Of Packets: 33
+Source IP: 204.79.197.200, Destination TCP Port: 49171, Total number Of Packets: 25
+Source IP: 145.254.160.237, Destination TCP Port: 80, Total number Of Packets: 19
+Source IP: 65.208.228.223, Destination TCP Port: 3372, Total number Of Packets: 18
+Source IP: 72.21.81.200, Destination TCP Port: 49170, Total number Of Packets: 14
+Source IP: 72.21.81.200, Destination TCP Port: 49169, Total number Of Packets: 12
+Source IP: 172.217.0.227, Destination TCP Port: 49189, Total number Of Packets: 11
+Source IP: 194.87.110.230, Destination TCP Port: 49165, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49168, Total number Of Packets: 9
+Source IP: 204.79.197.200, Destination TCP Port: 49172, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49175, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49177, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49182, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49183, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49190, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49193, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49197, Total number Of Packets: 9
+Source IP: 194.87.110.230, Destination TCP Port: 49200, Total number Of Packets: 9
+Source IP: 96.17.211.172, Destination TCP Port: 64584, Total number Of Packets: 6
+Source IP: 168.143.243.230, Destination TCP Port: 49162, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49167, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49166, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49176, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49178, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49184, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49185, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49192, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49191, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49198, Total number Of Packets: 5
+Source IP: 217.20.116.142, Destination TCP Port: 49199, Total number Of Packets: 5
+Source IP: 172.16.11.12, Destination TCP Port: 443, Total number Of Packets: 5
+Source IP: 96.17.211.172, Destination TCP Port: 64583, Total number Of Packets: 5
+Source IP: 216.239.59.99, Destination TCP Port: 3371, Total number Of Packets: 4
+Source IP: 74.125.19.17, Destination TCP Port: 64565, Total number Of Packets: 4
+Source IP: 96.17.211.172, Destination TCP Port: 64582, Total number Of Packets: 4
+Source IP: 96.17.211.172, Destination TCP Port: 64585, Total number Of Packets: 4
+Source IP: 193.124.93.220, Destination TCP Port: 49159, Total number Of Packets: 3
+Source IP: 188.225.38.247, Destination TCP Port: 49161, Total number Of Packets: 3
+Source IP: 172.217.0.238, Destination TCP Port: 49164, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49173, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49174, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49179, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49180, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49181, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49186, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49187, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49188, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49194, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49195, Total number Of Packets: 2
+Source IP: 172.217.0.238, Destination TCP Port: 49196, Total number Of Packets: 1
+Source IP: 204.79.197.200, Destination TCP Port: 49201, Total number Of Packets: 1
+Source IP: 172.217.0.238, Destination TCP Port: 49202, Total number Of Packets: 1

@@ -1,0 +1,75 @@
+// Output of probing1.pcap
+
+Probes Detected:
+Probe to port 22 from IPs: 192.168.2.26
+Total packets: 40
+
+Probe to port 111 from IPs: 192.168.2.26
+Total packets: 40
+
+Probe to port 548 from IPs: 192.168.2.26
+Total packets: 40
+
+Probe to port 999 from IPs: 192.168.2.26
+Total packets: 40
+
+Probe to port 54220 from IPs: 192.168.2.26
+Total packets: 4
+
+Probe to port 57152 from IPs: 54.230.49.196
+Total packets: 22
+
+Probe to port 57153 from IPs: 172.217.9.234
+Total packets: 11
+
+// Output of probing2.pcap
+
+Probes Detected:
+Probe to port 8888 from IPs: 192.168.2.26
+Total packets: 10
+
+Probe to port 8888 from IPs: 192.168.2.26
+Total packets: 30
+
+Probe to port 9999 from IPs: 192.168.2.26
+Total packets: 20
+
+// Output of scanning1.pcap
+
+Scans Detected:
+Scan across ports 22 to 22 from IPs: 192.168.2.240
+Total packets: 4
+
+Scan across ports 22 to 22 from IPs: 192.168.2.240
+Total packets: 6
+
+Scan across ports 22 to 22 from IPs: 192.168.2.240
+Total packets: 4
+
+Scan across ports 41016 to 41016 from IPs: 192.168.2.240
+Total packets: 4
+
+Scan across ports 47030 to 47030 from IPs: 192.168.2.240
+Total packets: 4
+
+Scan across ports 50684 to 50684 from IPs: 192.168.2.240
+Total packets: 4
+
+Scan across ports 55900 to 55900 from IPs: 192.168.2.240
+Total packets: 4
+
+Scan across ports 57572 to 57572 from IPs: 192.168.2.240
+Total packets: 4
+
+
+// Output of scanning2.pcap
+
+Scans Detected:
+Scan across ports 40000 to 40999 from IPs: 192.168.2.26
+Total packets: 1000
+
+
+
+
+
+
